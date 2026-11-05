@@ -1,0 +1,45 @@
+name: Task
+description: Plan repository work.
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Explain the purpose of the work.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: Describe the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Define inclusions and exclusions.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: Define completion requirements.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation
+      description: Specify verification checks.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
+      description: Add additional details, dependencies, or constraints.
+    validations:
+      required: false
